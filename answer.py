@@ -5,17 +5,21 @@ def hello_world():
     # This is a simple print statement to display a greeting message
     print("Hello, World!")
 
-def add(a, b):
+def add(x, y):
     """
     Adds two input values and returns the result.
 
     Parameters:
-    a (int or float): The first operand.
-    b (int or float): The second operand.
+    x (int or float): The first operand.
+    y (int or float): The second operand.
 
     Returns:
-    int or float: The result of adding a and b.
+    int or float: The result of adding x and y.
     """
-    # Simple code to add variable a and b
-    output = a + b
+    # Simple code to add variable x and y
+    output = x + y
     return output
+
+# Test 
+hello_world()
+print(add(2,3))
